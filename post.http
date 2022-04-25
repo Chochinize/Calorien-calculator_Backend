@@ -1,0 +1,73 @@
+post http://localhost:5050/users/register HTTP/1.1
+content-type: application/json
+
+{
+    "name":"martin"
+}
+
+###
+post http://localhost:5050/u/login HTTP/1.1
+content-type: application/json
+
+{
+    "email":"wwwdewreeewww3wwweeeree3wee@gmail.com",
+    "password":"1234567"
+}
+
+
+
+
+
+###
+post http://localhost:5050/u/Products HTTP/1.1s
+content-type: application/json
+
+{
+    "name":"Food21",
+     "nutritions":{
+         "Oats":{
+            "protein":8.5,
+            "carbs":70,
+            "fats":6,
+            "cc":37.5
+         },
+          "Meal":{
+            "protein":24,
+            "carbs":33,
+            "fats":3,
+            "cc":10.5
+         },
+            "Rise":{
+            "protein":8,
+            "carbs":75,
+            "fats":1,
+            "cc":35.3
+            
+      
+         },
+            "Crannberyes":{
+             "protein":1,
+             "carbs":1,
+            "fats":1,
+            "cc":1
+         },
+            "Iceberg":{
+            "protein":3,
+            "carbs":5,
+            "fats":6,
+            "cc":1
+         }
+     }
+}
+
+### 
+get  http://localhost:5050/u/gProduct HTTP/1.1s
+
+Content-Type: 'application/json'
+
+
+
+### 
+
+get  http://localhost:5050 HTTP/1.1s
+Content-Type: 'application/json'
