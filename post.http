@@ -23,7 +23,7 @@ post http://localhost:5050/u/Products HTTP/1.1s
 content-type: application/json
 
 {
-    "name":"Food21",
+    "name":"Food",
      "nutritions":{
          "Oats":{
             "protein":8.5,
