@@ -4,7 +4,7 @@
 
 A full-stack application built with React for the front-end and Express for the back-end, the Calorie Calculator provides an easy and intuitive way for users to track and manage their daily caloric intake. With its user-friendly interface, you can input the food you have consumed and quickly track your daily calorie intake. 
 
-![Calorie Calculator Screenshot](https://i.imgur.com/6OL5UYN.png)
+
 
 ### Features 
 
